@@ -1,0 +1,35 @@
+
+.error {
+    background-color: #000000;
+    text-align: center;
+}
+.success{
+    text-align: center;
+}
+/* styles.css */
+
+body {
+    padding-top: 0px; /* Ajustar según la altura de la barra de navegación */
+}
+
+.navbar {
+    background-color: #f5a70a; /* Cambiar el color de fondo según el estilo deseado */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-text {
+    margin-right: 15px; /* Ajustar el margen según sea necesario */
+}
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
